@@ -1,0 +1,48 @@
+@media (min-width: 1200px){
+    .desktop__menu{
+        display: initial;   /* Show the desktop menu for screen widths of 1200px and above */
+    }
+}
+@media (min-width: 768px){
+    .buttons__content {
+        max-width: 640px; 
+        margin: 0 auto;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 20px;
+    }
+}
+@media (min-width: 1200px){
+    .hidden__large{
+        display: none;   /* Hide elements with the "hide-on-large" class for screen widths of 1200px and above */
+    }
+}
+@media (max-width: 1200px){
+    #menu__btn{
+        background-color: rgba(244, 244, 244, 0.202);
+        backdrop-filter: blur(10px);
+        border-radius: 3px;
+        padding: 5px 15px;
+    }
+}
+@media (max-width: 768px){
+    .header__left{
+        color: black;
+    }
+    #menu__btn{
+        background-color: rgba(244, 244, 244, 0.432);
+        backdrop-filter: blur(8px);
+        color: black;
+        border-radius: 3px;
+        padding: 5px 15px;
+    }
+}
+@media (max-width: 600px){
+    .footer__link{
+        display: block;
+        margin: 10px auto;
+    }
+}
+  
+  
+  
+  
